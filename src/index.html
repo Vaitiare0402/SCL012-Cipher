@@ -4,12 +4,41 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
+
   </head>
   <body>
     <div id="root">
-      <h1>Hola mundo!</h1>
+      <h1>Bienvenidx a <em>C I F R A M E O W</em></h1>
+      <p><em>Ciframeow</em> es un sitio en donde podrás cifrar y decifrar personalmente textos, mensajes o 
+        escritos de manera rápida y segura. Para cifrar tienes que elegir un número de cifrado
+       (n°) del 5 al 10 y después presionar el botón cifrar. Si no eliges un número de cifrado,
+       tu texto aparecerá normal y no cifrado. Para decifrar debes elegir el mismo número de cifrado
+        con el cual se cifró el texto y presionar el botón decifrar. Finalmente se encuentra un 
+       botón (limpiar) que borrará lo que ya se cifro/decifro, permitiéndote ingresar un nuevo texto para
+       cifrar/decifrar.</p>
+      
+      <textarea id="palabras" class="cuadro"rows="10" cols="80" placeholder="Escribe aquí para cifrar/decifrar tu escrito"></textarea>
+     <br>
+     <input type="number"
+      id="numberOffset" 
+      class="ing"
+      placeholder="n°" 
+      name="numerOffset" 
+      min="5" max="10">
+      <p>*Recuerda que debes elegir un número de cifrado del 5 al 10 tanto para cifrar 
+        como para decifrar tu escrito</p>
+     
+     <button class="cifrar" id="cifrabutton">Cifrar</button>
+     <button type="button" class="btn" id="decifrar">Decifrar</button>
+     <br>
+     <br>
+     <textarea  id="text"class="cuadro2"rows="10" cols="80" placeholder="Escrito cifrado/decifrado"></textarea>
+      <br>
+      <br>
+     <button onclick="location.reload();" class="btnReload">Limpiar</button>
     </div>
+    <div>
     <script src="cipher.js"></script>
-    <script src="index.js"></script>
+    <script src="index.js"></script></div>
   </body>
 </html>

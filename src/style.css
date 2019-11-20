@@ -1,1 +1,71 @@
+body{
+    background-image:url(../fondo4.jpg);
+    background-repeat: no-repeat;
+    background-size: 1300px 700px;
+    background-attachment: fixed;
+}
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+p{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    
+}
+.cuadro{
+    position: relative;
+    left: 300px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size:16px;
+    background-color:#F3EAEA;
+    
+}
+.cuadro2{
+    position: relative;
+    left: 300px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size:16px;
+    background-color:#F3EAEA;
+    
+}
+.ing{
+    position: relative;
+    left: 300px;
+    background: #F3EAEA;
+}
+.cifrar{
+    position: relative;
+    left: 300px;
+    background-color: #B98F8F;
+    padding: 15px 20px;
+    color: white;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.btn{
+    position: relative;
+    left: 300px;
+    background-color: #B98F8F;
+    padding: 15px 20px;
+    color: white;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.btnReload{
+    position: relative;
+    left: 300px;
+    background-color:#B98F8F;
+    padding: 15px 20px;
+    color:white;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
 /* Acá va tu código */
