@@ -22,7 +22,7 @@ window.cipher = {
       
    }
    return stringEncode;//imprime el valor del escrito cifrado
-    /* Acá va tu código */
+    
     
    },
    decode: (numero, textareaDos) => {
