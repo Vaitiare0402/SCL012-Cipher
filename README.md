@@ -15,5 +15,5 @@ Esta app va dirigida a usuarios que desean redactar cualquier tipo de escrito pe
 
 ## Diseño de la app
 
-El diseño de ciframeow está pensado para acoger de forma amigable al usuario, pues al ser una app de uso personal el diseño tiene un carácter más informal. 
+El diseño de ciframeow está pensado para acoger de forma amigable al usuario, pues al ser una app de uso personal el diseño tiene un carácter más informal. El fonde de la app está directamente relacionado con el nombre de la app (ciframeow).
 
